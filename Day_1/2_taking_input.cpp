@@ -6,4 +6,5 @@ int main(){
     cin>>marks; 
     cout<<"marks of rahul are : "<<marks<<endl;
     return 0;
+    
 }
