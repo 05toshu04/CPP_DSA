@@ -106,19 +106,35 @@ int main(){
 
 
 
-for(int row=1;row<=5;row++){
+// for(int row=1;row<=5;row++){
 
 
-for(int col=1;col<=row;col++){
-   cout<<col;
+// for(int col=1;col<=row;col++){
+//    cout<<col;
+//    cout<<" ";
+// }
+
+// cout<<endl;
+
+
+// }
+
+
+
+
+
+
+
+for(int i=5;i>0;i--){
+
+
+for(int j=1;j<=i;j++){
+   cout<<j;
    cout<<" ";
 }
 
 cout<<endl;
-
-
 }
-
 
 
 
