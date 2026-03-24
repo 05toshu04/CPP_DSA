@@ -1,14 +1,17 @@
 #include<iostream>
 using namespace std;
-void add(int a, int b){
-    cout<<a+b<<endl;
+int add(int a, int b){
+    int sum = a+b;
+    return sum;
 
 }
 
 int main(){
     int a=6;
     int b=7;
-    add(a,b);
+    int sum = add(a,b);
+    cout<<sum<<endl;
+
     
 
 }
